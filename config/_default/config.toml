@@ -1,4 +1,4 @@
-baseURL = "https://doc-whx/whx.github.io/"
+baseURL = "https://whx.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
