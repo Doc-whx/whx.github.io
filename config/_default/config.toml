@@ -1,6 +1,6 @@
 baseURL = "https://doc-whx/whx.github.io/"
 languageCode = "zh-CN"
-title = "我的全新 Hugo 网站"
+title = "雅韵浮生"
 theme = "DoIt"
 [menu]
   [[menu.main]]
@@ -45,18 +45,20 @@ theme = "DoIt"
   avatarURL = "/images/avatar.webp"
   # 头像的链接指向的 URL
   avatarLinkURL = "https://doc-whx.github.io/whx.github.io/"
-  # 主页显示的网站标题 (支持 HTML 格式)
-  title = "主页显示的网站标题"
   # 主页显示的网站副标题
-  subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+  subtitle = "行到水穷处，坐看云起时。"
   # 是否为副标题显示打字机动画
   typeit = true
   # 是否显示社交账号
   social = true
 # 主页的社交信息设置
 [params.social]
-  GitHub = "https://github.com/Doc-whx/"
+  GitHub = "Doc-whx/"
   Email = "wanghanxu1@gmail.com"
+  Zhihu = "xxxx"
+  Douban = "xxxx"
+  Weibo = "xxxx"
+  RSS = true
 [params.search]
   enable = true
   # 搜索引擎的类型 ("lunr", "algolia", "fuse")
