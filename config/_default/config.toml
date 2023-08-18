@@ -45,3 +45,46 @@ theme = "DoIt"
   avatarURL = "/images/avatar.webp"
   # 头像的链接指向的 URL
   avatarLinkURL = "https://doc-whx.github.io/whx.github.io/"
+  # 主页显示的网站标题 (支持 HTML 格式)
+  title = "主页显示的网站标题"
+  # 主页显示的网站副标题
+  subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+  # 是否为副标题显示打字机动画
+  typeit = true
+  # 是否显示社交账号
+  social = true
+# 主页的社交信息设置
+[params.social]
+  GitHub = "https://github.com/Doc-whx/"
+  Email = "wanghanxu1@gmail.com"
+[params.search]
+  enable = true
+  # 搜索引擎的类型 ("lunr", "algolia", "fuse")
+  type = "algolia"
+  # 文章内容最长索引长度
+  contentLength = 4000
+  # 搜索框的占位提示语
+  placeholder = "请输入文章标题"
+  # 最大结果数目
+  maxResultLength = 10
+  # 结果内容片段长度
+  snippetLength = 50
+  # 搜索结果中高亮部分的 HTML 标签
+  highlightTag = "em"
+  # 是否在搜索索引中使用基于 baseURL 的绝对路径
+  absoluteURL = false
+  [params.search.algolia]
+    index = "zh_cn_index"
+    appID = "5YGRNRQK1G"
+    searchKey = "0ff6874805de24b84aa1d5ebccad56cd"
+  [params.search.fuse]
+    # https://fusejs.io/api/options.html
+    isCaseSensitive = false
+    minMatchCharLength = 2
+    findAllMatches = false
+    location = 0
+    threshold = 0.1
+        distance = 100
+        ignoreLocation = true
+        useExtendedSearch = false
+        ignoreFieldNorm = false
